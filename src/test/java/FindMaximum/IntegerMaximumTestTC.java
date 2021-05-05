@@ -16,7 +16,7 @@ public class IntegerMaximumTestTC {
 	     Assert.assertSame(15,result);
 	 }
 	 @Test
-	 public void givenMaximumIntegerAtPosition3_ReturnMaximumIntegerOfPosition2_TC3() {
+	 public void givenMaximumIntegerAtPosition3_ReturnMaximumIntegerOfPosition3_TC3() {
 		 Integer result= IM.maximum(15,3,40);
 	     Assert.assertSame(40,result);
 	 }
